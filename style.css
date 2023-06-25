@@ -17,6 +17,9 @@ main {
     transition: 1s ease-in-out;
     text-decoration: underline;
 
+
+#detail-img {
+    animation: fade-in 4s ease-in-out;
 }
 
 #JL {
@@ -74,6 +77,8 @@ main {
     display: block;
     color: red;
 }
+}
+
 
 #column {
     color: #c6c4bf;
@@ -92,6 +97,39 @@ main {
     font-weight: 100;
     text-align: center;
     text-decoration: overline;
+}
+
+#call-to-action {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    font-size: 2.2rem;
+    animation: typing 3s steps(100, end), 
+    blink-caret .75s  step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: aqua; }
+}
+
+#contact-icons {
+    margin-top: 5rem;
+    animation: fade-in 2s ease-in-out;
+}
+
+@keyframes fade-in {
+    from {opacity: 0;}
+}
+
+
+#portfolio-headshot {
+    border-radius: 50%;
 }
 
 #options-contact {
@@ -189,13 +227,19 @@ main {
 #SF-header {
     text-decoration: underline;
     font-weight: 200;
+    overflow: hidden;
+    margin: 0 auto;
+    animation: typing 5s steps(200, end), 
+    blink-caret .75s  step-end infinite;
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
 
-#SF-desc {
+
+#SF-desc p{
+    font-size: 3.5vw;
     font-weight: 200;
-    font-size: 1.3rem;
+    animation: fade-in 3s ease-in;
 }
 
 #SF-link {
@@ -216,6 +260,10 @@ main {
     font-weight: 200;
     margin-top: 5rem;
     margin-bottom: 5rem;
+    overflow: hidden;
+    margin: 0 auto;
+    animation: typing 5s steps(200, end), 
+    blink-caret .75s  step-end infinite;
 }
 
 #ML-list {
@@ -223,9 +271,13 @@ main {
     font-size: 1.3rem;
 }
 
-#ML-desc {
+#ML-desc p{
     font-weight: 200;
-    font-size: 1.3rem;
+    font-size: 3.5vw;
+    white-space: normal;
+    overflow: hidden;
+    margin: 0 auto;
+    animation: fade-in 3s ease-in;
 }
 
 #ML-link {
@@ -236,21 +288,30 @@ main {
     text-decoration: underline;
     font-weight: 200;
     margin-top: 5rem;
-    margin-bottom: 10rem;
+    overflow: hidden;
+    margin: 0 auto;
+    animation: typing 5s steps(200, end), 
+    blink-caret .75s  step-end infinite;
 }
 
 #Fractal-desc {
     font-weight: 200;
-    font-size: 1.3rem;
+    font-size: 3.5vw;
+    animation: fade-in 2s ease-in-out;
+
 }
 
 #Fractal-link {
     text-decoration: none;
+    
 }
 
 #Fractal-list {
+    align-content: center;
     font-weight: 200;
     font-size: 1.3rem;
+    animation: fade-in 2s ease-in-out;
+
 }
 
 #footer {
