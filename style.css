@@ -16,6 +16,39 @@ main {
 #navItem:hover {
     transition: 1s ease-in-out;
     text-decoration: underline;
+}
+
+
+
+
+#work {
+    margin-top: 3rem;
+    font-size: 2rem;
+    color: white;
+    background-image: url(Subject.png); /* laptop image by kari shea from unsplash.com */
+    width: 9em;
+    height: 7em;
+    background-position: center;
+    background-size: cover;
+    animation: fade-in 2s ease-in-out;
+}
+
+#work-intro {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    overflow: hidden;
+    margin: 0 auto;
+    white-space: none;
+    animation: typing 10s steps(500, end)
+}
+
+#work-intro a {
+    text-decoration: none;
+    animation: fade-in 10s ease;
+}
+
 
 
 #detail-img {
@@ -77,7 +110,7 @@ main {
     display: block;
     color: red;
 }
-}
+
 
 
 #column {
@@ -235,6 +268,9 @@ main {
     margin-bottom: 5rem;
 }
 
+.container {
+    font-weight: 200;
+}
 
 #SF-desc p{
     font-size: 3.5vw;
