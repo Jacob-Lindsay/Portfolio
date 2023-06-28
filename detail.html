@@ -12,13 +12,26 @@
     <title>Work</title>
 </head>
 
-<nav>
+<nav id="nav-1">
     <ul class="nav justify-content-end">
         <li class="nav-item"> <a id="navItem" class="nav-link" href="index.html">Home</a></li>
         <li class="nav-item"> <a id="navItem" class="nav-link" href="contact.html">Contact</a></li>
         <li class="nav-item"> <a id="navItem" class="nav-link" href="portfolio.html">Portfolio</a></li>
     </ul>
 </nav>
+
+<div id="nav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+        <a href="index.html"><img id="nbs-logo" src="JL.png" alt="" width="50"></a></li>
+        <a href="index.html">Home</a></li>
+        <a href="contact.html">Contact</a></li>
+        <a href="portfolio.html">Work</a>
+    </div>
+</div>
+
+<span id="ham-menu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
 
 <body>
 
@@ -131,9 +144,12 @@
 
     <div class="line-break mx-auto">
     </div>
+    <script src="script/script.js"></script>
 
 
 </body>
+
+
 
 <footer>
     <p id="footer" class="text-center">Copyright &copy; Jacob Lindsay 2023</p>
