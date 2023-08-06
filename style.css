@@ -122,7 +122,6 @@ main {
 #JL {
     position: relative;
     margin-bottom: 2rem;
-    animation: opening 3s ease-in;
 }
 
 #icon {
