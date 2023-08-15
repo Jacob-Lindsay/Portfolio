@@ -436,3 +436,10 @@ a {
     text-decoration: none;
     color: black;
 }
+
+#portfolio-img {
+    width: 110px;
+    border-radius: none;
+    object-fit: cover;
+}
+
