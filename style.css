@@ -443,3 +443,16 @@ a {
     object-fit: cover;
 }
 
+#logo {
+    width: 120px;
+    object-fit: cover;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 430px) {
+    #logo {
+        width: 90px;
+    }
+}
+
